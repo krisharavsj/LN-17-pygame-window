@@ -8,7 +8,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("My First Game")
 player_color = (255, 0, 0) 
 player_size = 50
-player_pos = [screen_width // 2, screen_height // 2]  # Center of the screen
+player_pos = [screen_width // 2, screen_height // 2]
 clock = pygame.time.Clock()
 running = True
 while running:
